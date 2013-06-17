@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: mysql2
+  encoding: utf8
+  database: spinose-nasua
+  host: a5d7a4d8e47e4693c3d3d99b3da6f92d87aea7cc.rackspaceclouddb.com
+  username: test
+  password: test
+  port: 3306
